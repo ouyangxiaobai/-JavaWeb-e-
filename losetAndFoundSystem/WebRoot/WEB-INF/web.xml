@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>articleAction</servlet-name>
+		<servlet-class>com.myProject.ShiWu.action.articleAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>articleAction</servlet-name>
+		<url-pattern>/article.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>biaoyangAction</servlet-name>
+		<servlet-class>com.myProject.ShiWu.action.biaoyangAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>biaoyangAction</servlet-name>
+		<url-pattern>/biaoyang.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>renlingAction</servlet-name>
+		<servlet-class>com.myProject.ShiWu.action.renlingAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>renlingAction</servlet-name>
+		<url-pattern>/renling.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>shiwudjAction</servlet-name>
+		<servlet-class>com.myProject.ShiWu.action.shiwudjAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>shiwudjAction</servlet-name>
+		<url-pattern>/shiwudj.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>shiwuzlAction</servlet-name>
+		<servlet-class>com.myProject.ShiWu.action.shiwuzlAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>shiwuzlAction</servlet-name>
+		<url-pattern>/shiwuzl.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>userinfoAction</servlet-name>
+		<servlet-class>com.myProject.ShiWu.action.userinfoAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userinfoAction</servlet-name>
+		<url-pattern>/userinfo.do</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
